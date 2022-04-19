@@ -6,14 +6,6 @@
         <div class="flex"><i :class="`iconfont ${v.iconfont}`"></i></div>
         <p>{{ v.text }}</p>
       </li>
-      <!-- <li>
-        <div class="flex"><i :class="`iconfont icon-fengwen1`"></i></div>
-        <p>{{ windTempStatus }}</p>
-      </li>
-      <li>
-        <div class="flex"><i class="iconfont icon-shuiwen1"></i></div>
-        <p>{{ waterTempTrimStatus }}</p>
-      </li> -->
     </ul>
   </div>
 </template>
