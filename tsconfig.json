@@ -1,0 +1,43 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "strict": true,
+    "jsx": "preserve",
+    "importHelpers": true,
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+    "baseUrl": ".",
+    "allowJs": true,
+    "noImplicitAny": false,
+    "types": ["webpack-env"],
+    "paths": {
+      "@/*": ["src/*"]
+    },
+    "lib": ["esnext", "dom", "dom.iterable", "scripthost"]
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue",
+    "tests/**/*.ts",
+    "tests/**/*.tsx",
+    "src/pages/Zhigao-AirConditioner/main.js",
+    "src/pages/CeilingLamp/main.js",
+    "src/pages/Infinite-Pole-AirPurifier/main.js",
+    "src/pages/MeshWirelessButton/router/index.js",
+    "src/pages/Mesh-Light-2/main.js",
+    "src/pages/Mesh-Light-2/store/index.js",
+    "src/pages/MeshLight4/router/index.js",
+    "src/pages/CeilingLamp/store/index.js",
+    "src/pages/MeshSingleFireSwitch/router/index.js",
+    "src/pages/MeshWirelessSwitch/router/index.js",
+    "src/store/index.js",
+    "src/plugins/mx.js",
+    "src/pages/Philips-WaterPurifier/views/UseHelp/components/index.js", "src/utils/MXSMART/tools/ilop2hex.ts"
+  ],
+  "exclude": ["node_modules", "src/config/index.js"]
+}

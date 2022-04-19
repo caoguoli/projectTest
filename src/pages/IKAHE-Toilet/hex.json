@@ -1,0 +1,56 @@
+{
+  "0100": {
+    "iLop_property": {
+      "PowerSwitch_1": "0100"
+    },
+    "value_length": 1
+  },
+  "1100": {
+    "iLop_property": {
+      "PowerSwitch_2": "1100"
+    },
+    "value_length": 1
+  },
+  "2100": {
+    "iLop_property": {
+      "PowerSwitch_3": "2100"
+    },
+    "value_length": 1
+  },
+  "3100": {
+    "iLop_property": {
+      "PowerSwitch_4": "3100"
+    },
+    "value_length": 1
+  },
+  "4100": {
+    "iLop_property": {
+      "BiasLightSwitch": "4100"
+    },
+    "value_length": 0
+  },
+  "0200": {
+    "iLop_property": {
+      "PowerStatus_1": "0200"
+    },
+    "value_length": 1
+  },
+  "1200": {
+    "iLop_property": {
+      "PowerStatus_2": "1200"
+    },
+    "value_length": 1
+  },
+  "2200": {
+    "iLop_property": {
+      "PowerStatus_3": "2200"
+    },
+    "value_length": 1
+  },
+  "3200": {
+    "iLop_property": {
+      "PowerStatus_4": "3200"
+    },
+    "value_length": 1
+  }
+}

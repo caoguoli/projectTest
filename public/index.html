@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
+  <link rel="icon" href="<%= BASE_URL %>favicon.ico" />
+  <title>
+    <%= htmlWebpackPlugin.options.title %>
+  </title>
+</head>
+
+<body>
+  <noscript>
+    <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work
+        properly without JavaScript enabled. Please enable it to
+        continue.</strong>
+  </noscript>
+  <div id="app">
+    <div id="network-error" style="display: none;">
+      <header style="height: 46px;line-height: 46px;">
+        <img onclick="window.dsBridge.call('page.closeWebView')" style="width: 20px;"
+          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoBAMAAAB+0KVeAAAAKlBMVEUAAAAPOFQYOlYYPFYVOVUYO1UYPFcZPFYZO1cZPFcXOVYePFoAAIAYO1aqVHXhAAAADXRSTlMAEuPNJM6nkXBmWQgCeN9TOwAAAE1JREFUKM9jGBAgpn4AQ4zR9u4CDEHhu3cbsCi8JIBFoQo2hQ6DXCE3NoWcCIWYgoS1M4hiU8oYi02pMFaltoNAqQChxIBINtgTGF0BAPwDOzWOjQJwAAAAAElFTkSuQmCC" />
+        <div
+          style="display: inline-block;font-size: 18px;font-weight: 500;color: #183B56;line-height: 18px;width: 88%;text-align: center;">
+          控制面板
+        </div>
+      </header>
+      <div class="content" style="margin-top: 150px;">
+        <img style="width:120px;display:block;margin: 0 auto;"
+          src="data:image/png;base64,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" />
+        <div style="text-align:center;font-size: 15px;color: #183B56;line-height: 15px;margin: 34px 0 40px">
+          网络不稳定，请刷新重试
+        </div>
+        <u onclick="window.location.reload()"
+          style="display:block;text-align:center;font-size: 17px;color: #33D1FF;line-height: 24px;">重试</u>
+      </div>
+    </div>
+  </div>
+  <script>
+    let app = 'com.mxchip.infinitus'
+    window.navigator.userAgent.split(' ').forEach(v => {
+      if (v.includes('app/')) {
+        app = v.split('/')[1]
+      }
+    })
+    if (!app) {
+      window.location.search.split('&').forEach(v => {
+        if (v.split('=')[0] === 'app') {
+          app = v.split('=')[1]
+        }
+      })
+    }
+    let ICONFONT_CSS = 'https://at.alicdn.com/t/font_1944513_kz2aytna0o.css'
+    if (
+      [
+        '0',
+        '1',
+        'com.mxchip.bta',
+        'com.mxchip.zgrill',
+        'com.chinafsl.smart',
+        'com.chinafsl.iot'
+      ].includes(app)
+    ) {
+      ICONFONT_CSS = 'https://at.alicdn.com/t/font_1944513_sfx4tmwo358.css'
+    }
+    if (['2', 'com.mxchip.infinitus'].includes(app)) {
+      ICONFONT_CSS = 'https://at.alicdn.com/t/font_1950254_9a9vamcxioa.css'
+    }
+
+    const link = document.createElement('link')
+    link.setAttribute('rel', 'stylesheet')
+    link.setAttribute('type', 'text/css')
+    link.setAttribute('href', ICONFONT_CSS)
+    const heads = document.getElementsByTagName('head')
+    if (heads.length) {
+      heads[0].appendChild(link)
+    }
+    // 灯场景，选择场景右上角的更多用到了svg
+    let ICONFONT_JS = 'https://at.alicdn.com/t/font_1944513_kz2aytna0o.js'
+    if (
+      [
+        '0',
+        '1',
+        'com.mxchip.bta',
+        'com.mxchip.zgrill',
+        'com.chinafsl.smart',
+        'com.chinafsl.iot'
+      ].includes(app)
+    ) {
+      ICONFONT_JS = 'https://at.alicdn.com/t/font_1944513_sfx4tmwo358.js'
+    }
+    if (['2', 'com.mxchip.infinitus'].includes(app)) {
+      ICONFONT_JS = 'https://at.alicdn.com/t/font_1950254_9a9vamcxioa.js'
+    }
+    const script = document.createElement('script')
+    script.src = ICONFONT_JS
+    document.body.appendChild(script)
+  </script>
+  <script>
+    var bridge = {
+      default: this,
+      call: function (b, a, c) {
+        var e = ''
+        'function' == typeof a && ((c = a), (a = {}))
+        a = { data: void 0 === a ? null : a }
+        if ('function' == typeof c) {
+          var g = 'dscb' + window.dscb++
+          window[g] = c
+          a._dscbstub = g
+        }
+        a = JSON.stringify(a)
+        if (window._dsbridge) e = _dsbridge.call(b, a)
+        else if (
+          window._dswk ||
+          -1 != navigator.userAgent.indexOf('_dsbridge')
+        )
+          e = prompt('_dsbridge=' + b, a)
+        return JSON.parse(e || '{}').data
+      },
+      register: function (b, a, c) {
+        c = c ? window._dsaf : window._dsf
+        window._dsInit ||
+          ((window._dsInit = !0),
+            setTimeout(function () {
+              bridge.call('_dsb.dsinit')
+            }, 0))
+        'object' == typeof a ? (c._obs[b] = a) : (c[b] = a)
+      },
+      registerAsyn: function (b, a) {
+        this.register(b, a, !0)
+      },
+      hasNativeMethod: function (b, a) {
+        return this.call('_dsb.hasNativeMethod', {
+          name: b,
+          type: a || 'all'
+        })
+      },
+      disableJavascriptDialogBlock: function (b) {
+        this.call('_dsb.disableJavascriptDialogBlock', { disable: !1 !== b })
+      }
+    }
+    !(function () {
+      if (!window._dsf) {
+        var b = {
+          _dsf: { _obs: {} },
+          _dsaf: { _obs: {} },
+          dscb: 0,
+          dsBridge: bridge,
+          close: function () {
+            bridge.call('_dsb.closePage')
+          },
+          _handleMessageFromNative: function (a) {
+            var e = JSON.parse(a.data),
+              b = { id: a.callbackId, complete: !0 },
+              c = this._dsf[a.method],
+              d = this._dsaf[a.method],
+              h = function (a, c) {
+                b.data = a.apply(c, e)
+                bridge.call('_dsb.returnValue', b)
+              },
+              k = function (a, c) {
+                e.push(function (a, c) {
+                  b.data = a
+                  b.complete = !1 !== c
+                  bridge.call('_dsb.returnValue', b)
+                })
+                a.apply(c, e)
+              }
+            if (c) h(c, this._dsf)
+            else if (d) k(d, this._dsaf)
+            else if (((c = a.method.split('.')), !(2 > c.length))) {
+              a = c.pop()
+              var c = c.join('.'),
+                d = this._dsf._obs,
+                d = d[c] || {},
+                f = d[a]
+              f && 'function' == typeof f
+                ? h(f, d)
+                : ((d = this._dsaf._obs),
+                  (d = d[c] || {}),
+                  (f = d[a]) && 'function' == typeof f && k(f, d))
+            }
+          }
+        },
+          a
+        for (a in b) window[a] = b[a]
+        bridge.register('_hasJavascriptMethod', function (a, b) {
+          b = a.split('.')
+          if (2 > b.length) return !(!_dsf[b] && !_dsaf[b])
+          a = b.pop()
+          b = b.join('.')
+          return (b = _dsf._obs[b] || _dsaf._obs[b]) && !!b[a]
+        })
+      }
+    })()
+
+    window.addEventListener(
+      'error',
+      function (event) {
+        if (event) {
+          var target = event.target || event.srcElement
+          // 写上
+          var isElementTarget = target instanceof HTMLElement
+          if (!isElementTarget) return // js error不再处理
+          // var source = event.target
+          // 对该资源进行处理..
+          document.getElementById('network-error').style.display = 'block'
+        }
+        //设为true表示捕获阶段调用，会在元素的onerror前调用
+      },
+      true
+    )
+  </script>
+  <!-- https协议头必须加上否则在app中是打不开的 -->
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vue-router@3.0.6/dist/vue-router.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vuex@3.1.1/dist/vuex.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vue-i18n@8.22.3/dist/vue-i18n.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/echarts@4.8.0/dist/echarts.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/echarts@4.8.0/dist/extension/dataTool.min.js"></script>
+</body>
+
+</html>

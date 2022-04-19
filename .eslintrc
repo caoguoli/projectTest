@@ -1,0 +1,52 @@
+{
+  "root": true,
+  "env": {
+    "node": true
+  },
+  "extends": [
+    "plugin:vue/recommended"
+    // "plugin:prettier/recommended",
+    // "prettier/@typescript-eslint", // 优先 prettier 中的样式规范
+    // "plugin:@typescript-eslint/recommended"
+  ],
+  "parser": "vue-eslint-parser",
+  "plugins": [
+    "@typescript-eslint"
+  ],
+  "parserOptions": {
+    "parser": "@typescript-eslint/parser" // 解析 .ts 文件
+  },
+  "rules": {
+    "no-console": 0,
+    "no-debugger": 0,
+    "@typescript-eslint/camelcase": 0,
+    "@typescript-eslint/member-delimiter-style": [
+      2,
+      {
+        "multiline": {
+          "delimiter": "none",
+          "requireLast": true
+        },
+        "singleline": {
+          "delimiter": "semi",
+          "requireLast": false
+        }
+      }
+    ],
+    "@typescript-eslint/explicit-function-return-type": 0,
+    "vue/max-attributes-per-line": 0,
+    "vue/singleline-html-element-content-newline": 0,
+    "vue/html-self-closing": [
+      2,
+      {
+        "html": {
+          "void": "always",
+          "normal": "never",
+          "component": "always"
+        },
+        "svg": "always",
+        "math": "always"
+      }
+    ]
+  }
+}

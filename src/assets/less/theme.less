@@ -1,0 +1,30 @@
+@import './variable/smartplus.less';
+@import './variable/fsl.less';
+@import './variable/infinitus.less';
+
+:root{
+  // 通用var
+  --primary: #ff5a28;
+  --text-primary: #262626;
+  --text-secondary: #595959;
+  --text-normal: #595959;
+  --text-disable: #bfbfbf;
+  --border: #ccc;
+  --divider: #dfdfdf;
+  --background-fe: #f8f8f7;
+  --background: #fff;
+  // 自定义var
+  --color: #ccc; 
+}
+
+// 转换为less
+@primary:var(--primary);
+@text-primary:var(--text-primary);
+@text-secondary: var(--text-secondary);
+@text-normal: var(--text-normal);
+@text-disable:var(--text-disable);
+@border: var(--border);
+@divider: var(--divider);
+@background: var(--background);
+@background-fe: var(--background-fe);
+@button-press: var(--button-press);

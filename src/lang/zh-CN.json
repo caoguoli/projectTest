@@ -1,0 +1,46 @@
+{
+  "common": {
+    "cancel": "取消",
+    "confirm": "确认"
+  },
+  "offline": {
+    "title": "设备离线",
+    "h1": "您的设备已离线，可以尝试以下操作：",
+    "back": "返回首页",
+    "p1": "请确保您的设备已经上电，并且正常开机",
+    "p2": "请确保您手机上的蓝牙功能已经打开，且我们的app已获得所需的各种应用权限",
+    "p3": "请确认您的路由器能正常工作，且能正常使用网络",
+    "p4": "如果您之前为此设备配置过Wi-Fi连接，请确认您的路由器能正常工作，且能正常使用网络"
+  },
+  "deviceDetail": {
+    "time": "加入时间",
+    "address": "MAC地址",
+    "deviceId": "设备ID",
+    "room": "房间位置",
+    "group": "群组设置",
+    "reset": "重置网络",
+    "share": "设备共享",
+    "feedback": "意见反馈",
+    "upgrade": "固件升级",
+    "changeName": "修改备注名",
+    "deleteDevice": "解绑设备",
+    "addGroup": "未添加群组，去添加",
+    "groupManage": "群组管理",
+    "hasJoinedGroup": "已与[设备名称]编组",
+    "pleaseEnterName": "请输入昵称",
+    "UpToDate": "已最新",
+    "sureToUnbind": "确定要解绑设备？",
+    "deviceDetail": "设备详情",
+    "noSet": "未设置",
+    "netConnect": "网络连接",
+    "copySuccess": "复制成功",
+    "modifySuccess": "修改成功",
+    "unbindSuccess": "解绑设备成功"
+  },
+  "loadError": {
+    "title": "加载失败",
+    "check": "请检查网络是否正常",
+    "reload": "重新加载",
+    "back": "返回首页"
+  }
+}

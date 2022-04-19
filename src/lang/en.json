@@ -1,0 +1,46 @@
+{
+  "common": {
+    "cancel": "Cancel",
+    "confirm": "Done"
+  },
+  "offline": {
+    "title": "Device Offline",
+    "h1": "Connection tips:",
+    "back": "Back Home",
+    "p1": "Make sure the device is now plugged in and switched on.",
+    "p2": "On your phone, make sure Bluetooth is switched on and all necessary permissions are granted to our app.",
+    "p3": "Make sure the router works properly and the internet service is available and stable.",
+    "p4": "If Wi-Fi connection has been configured for the device, make sure the router works properly and the internet service is available and stable."
+  },
+  "deviceDetail": {
+    "time": "Binding time",
+    "address": "MAC address",
+    "deviceId": "Device ID",
+    "room": "Room",
+    "group": "Group",
+    "reset": "Reset Network",
+    "share": "Device Sharing",
+    "feedback": "Feedback",
+    "upgrade": "Firmware Upgrade",
+    "changeName": "Change name",
+    "deleteDevice": "Delete Device",
+    "addGroup": "No group, go to add",
+    "groupManage": "Group Management",
+    "hasJoinedGroup": "Have joined [Device name]",
+    "pleaseEnterName": "Enter Nickname",
+    "UpToDate": "Up to date",
+    "sureToUnbind": "Are you sure unbind the device?",
+    "deviceDetail": "Device details",
+    "noSet": "Not set",
+    "netConnect": "Internet connection",
+    "copySuccess": "Copy successfully",
+    "modifySuccess": "Modified Successfully",
+    "unbindSuccess": "Unbind successfully"
+  },
+  "loadError": {
+    "title": "Loading error",
+    "check": "Check the network",
+    "reload": "Retry",
+    "back": "Return"
+  }
+}

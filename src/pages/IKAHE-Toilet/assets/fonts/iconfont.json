@@ -1,0 +1,163 @@
+{
+  "id": "2840722",
+  "name": "智家-怡和马桶",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "24667251",
+      "name": "取消",
+      "font_class": "quxiao",
+      "unicode": "e871",
+      "unicode_decimal": 59505
+    },
+    {
+      "icon_id": "24667216",
+      "name": "info-circle-fill",
+      "font_class": "info-circle-fill",
+      "unicode": "e872",
+      "unicode_decimal": 59506
+    },
+    {
+      "icon_id": "24667189",
+      "name": "icon_menu",
+      "font_class": "icon_menu",
+      "unicode": "e86f",
+      "unicode_decimal": 59503
+    },
+    {
+      "icon_id": "24667190",
+      "name": "icon_back",
+      "font_class": "icon_back",
+      "unicode": "e870",
+      "unicode_decimal": 59504
+    },
+    {
+      "icon_id": "24667087",
+      "name": "待机",
+      "font_class": "daiji",
+      "unicode": "e85d",
+      "unicode_decimal": 59485
+    },
+    {
+      "icon_id": "24667088",
+      "name": "座圈",
+      "font_class": "zuoquan",
+      "unicode": "e85e",
+      "unicode_decimal": 59486
+    },
+    {
+      "icon_id": "24667089",
+      "name": "座盖",
+      "font_class": "zuogai",
+      "unicode": "e85f",
+      "unicode_decimal": 59487
+    },
+    {
+      "icon_id": "24667090",
+      "name": "冷热按摩",
+      "font_class": "lengreanmo",
+      "unicode": "e860",
+      "unicode_decimal": 59488
+    },
+    {
+      "icon_id": "24667091",
+      "name": "喷嘴清洁",
+      "font_class": "penzuiqingjie",
+      "unicode": "e861",
+      "unicode_decimal": 59489
+    },
+    {
+      "icon_id": "24667092",
+      "name": "移动清洗",
+      "font_class": "yidongqingxi",
+      "unicode": "e862",
+      "unicode_decimal": 59490
+    },
+    {
+      "icon_id": "24667093",
+      "name": "夜灯",
+      "font_class": "yedeng",
+      "unicode": "e863",
+      "unicode_decimal": 59491
+    },
+    {
+      "icon_id": "24667094",
+      "name": "烘干",
+      "font_class": "honggan",
+      "unicode": "e864",
+      "unicode_decimal": 59492
+    },
+    {
+      "icon_id": "24667095",
+      "name": "臀洗",
+      "font_class": "tunxi",
+      "unicode": "e865",
+      "unicode_decimal": 59493
+    },
+    {
+      "icon_id": "24667096",
+      "name": "妇洗",
+      "font_class": "fuxi",
+      "unicode": "e866",
+      "unicode_decimal": 59494
+    },
+    {
+      "icon_id": "24667097",
+      "name": "冲水",
+      "font_class": "chongshui",
+      "unicode": "e867",
+      "unicode_decimal": 59495
+    },
+    {
+      "icon_id": "24667098",
+      "name": "风温",
+      "font_class": "fengwen",
+      "unicode": "e868",
+      "unicode_decimal": 59496
+    },
+    {
+      "icon_id": "24667099",
+      "name": "喷嘴位置",
+      "font_class": "penzuiweizhi",
+      "unicode": "e869",
+      "unicode_decimal": 59497
+    },
+    {
+      "icon_id": "24667100",
+      "name": "自动清洗",
+      "font_class": "zidongqingxi",
+      "unicode": "e86a",
+      "unicode_decimal": 59498
+    },
+    {
+      "icon_id": "24667101",
+      "name": "风速",
+      "font_class": "fengsu",
+      "unicode": "e86b",
+      "unicode_decimal": 59499
+    },
+    {
+      "icon_id": "24667102",
+      "name": "水温",
+      "font_class": "shuiwen",
+      "unicode": "e86c",
+      "unicode_decimal": 59500
+    },
+    {
+      "icon_id": "24667103",
+      "name": "座温",
+      "font_class": "zuowen",
+      "unicode": "e86d",
+      "unicode_decimal": 59501
+    },
+    {
+      "icon_id": "24667104",
+      "name": "水压",
+      "font_class": "shuiya",
+      "unicode": "e86e",
+      "unicode_decimal": 59502
+    }
+  ]
+}
