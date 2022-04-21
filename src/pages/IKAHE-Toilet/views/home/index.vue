@@ -1,6 +1,7 @@
 <template>
   <div class="home-box">
     <div>cgl1 t修改了部分的代码</div>
+    <div>你有些疑问吗？</div>
     <WarningBar
       :data-source="warningArray"
       :style="{ background: 'rgba(255, 159, 159, 0.32)', color: '#FF5B5E' }"
